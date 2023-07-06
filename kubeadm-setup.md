@@ -19,7 +19,7 @@ apt install kubeadm=1.20.0-00 kubectl=1.20.0-00 kubelet=1.20.0-00 -y
 
 kubeadm init --pod-network-cidr=192.168.0.0/16      ####it will create the kubeconfig file and generate the token should be paste in the worker node
 
-#################  ON MASTER NODE   #################
+#################  ON MASTER NODE   ####################
 
 mkdir -p $HOME/.kube
 
